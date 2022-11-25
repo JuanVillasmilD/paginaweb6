@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberPunk 2077</title>
+    <link rel="shortcut icon" href="assets/img/mujer.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="header" class="navbar navbar-dark bg-dark static-top">
+        <div class="container text-center justify-content-center">
+            <a class="navbar-brand" href="#"><img width="40%" src="assets/img/logo.png" alt=""></a>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="acerca.html">Acerca de Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contacto -->
+    <div id="contacto" class="contact-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Contáctanos</h1>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9214090.047072696!2d9.649439125086085!3d49.35205984712915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc103b236a29%3A0x95cd2b718c7463c3!2sCD%20PROJEKT%20S.A.!5e0!3m2!1ses-419!2sve!4v1668807225689!5m2!1ses-419!2sve"
+                            width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-content">
+                        <div class="container">
+                            <form id="contact" action="" method="post">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <fieldset>
+                                            <input name="name" type="text" class="form-control" id="name"
+                                                placeholder="Your name..." required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <fieldset>
+                                            <input name="email" type="text" class="form-control" id="email"
+                                                placeholder="Your email..." required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <fieldset>
+                                            <input name="subject" type="text" class="form-control" id="subject"
+                                                placeholder="Subject..." required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <fieldset>
+                                            <textarea name="message" rows="6" class="form-control" id="message"
+                                                placeholder="Your message..." required=""></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="button">Envia un
+                                                Mensaje</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Page Ends Here -->
+
+    <!-- Suscribirse -->
+    <div class="subscribe-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Suscribete a CyberPunk Clothes ahora!</h1>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <div class="main-content">
+                        <p>Para recibir correos con nuestras promociones y ofertas deja tu correo electrónico aquí abajo
+                            y no te pierdas de ninguno de nuestros sorteos que hacemos semanalmente.</p>
+                        <div class="container">
+                            <form id="subscribe" action="" method="get">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <fieldset>
+                                            <input name="email" type="text" class="form-control" id="email"
+                                                onfocus="if(this.value == 'Tú Email...') { this.value = ''; }"
+                                                onBlur="if(this.value == '') { this.value = 'Tú Email...';}"
+                                                value="Tú Email..." required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="button">Suscribete
+                                                Ahora!</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <img width="40%" src="assets/img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Ayuda</a></li>
+                            <li><a href="#">Política de Privacidad</a></li>
+                            <li><a href="#">Contáctanos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a target="_blank" href="https://www.facebook.com/edgerunners/"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a target="_blank"
+                                    href="https://twitter.com/CyberpunkGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                                        class="fa-brands fa-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/cyberpunkgame/?hl=es"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/channel/UC4zyoIAzmdsgpDZQfO1-lSA"><i
+                                        class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2019 CyberPunk Clothes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
